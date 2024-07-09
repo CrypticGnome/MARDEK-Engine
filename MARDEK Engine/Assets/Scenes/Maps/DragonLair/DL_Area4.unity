@@ -14619,8 +14619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene:
-    sceneAsset: {fileID: 102900000, guid: a735e495c0df1164ab7e40f6db187c45, type: 3}
-    scenePath: Assets/Scenes/TitleScreen.unity
+    sceneAsset: {fileID: 102900000, guid: 9142df6e3b7fe9f478f928916eb5664a, type: 3}
+    scenePath: Assets/Scenes/Maps/Hero's Den/heroes_den.unity
   waypoint: {fileID: 0}
   overrideFacingDirection: {fileID: 0}
 --- !u!1001 &1986284545

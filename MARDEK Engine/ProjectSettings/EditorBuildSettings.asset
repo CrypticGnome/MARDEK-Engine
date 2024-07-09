@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maps/DragonLair/DL_Area4.unity
     guid: 6febde95d7660a449b1ff57bbfa809ea
+  - enabled: 1
+    path: Assets/Scenes/Maps/Hero's Den/heroes_den.unity
+    guid: 9142df6e3b7fe9f478f928916eb5664a
+  - enabled: 1
+    path: Assets/Scenes/Maps/Goznor/Overworld/goznor.unity
+    guid: aed8ff46ba00ea143af7333f26460bef
   m_configObjects: {}
