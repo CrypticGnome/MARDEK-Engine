@@ -406,7 +406,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2801880452226114186, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2801880452226114186, guid: d1dcdf008fb60a340a9abd2867b93fc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -498,71 +498,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1008434965
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3265152173036777289, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_Name
-      value: Rural Door UP (TransitionEvent) - NEEDS DIFFERENT SPRITE
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: scene.scenePath
-      value: Assets/Scenes/Maps/Heroes' Den/heroes_house.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
-      propertyPath: scene.sceneAsset
-      value: 
-      objectReference: {fileID: 102900000, guid: 6b3722f3cdbe7e840b7fb7aec68e282a, type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!1001 &1035257421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -656,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2035,7 +1970,7 @@ Transform:
   - {fileID: 1076898751}
   - {fileID: 1840068281}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1178651518
 Tilemap:
@@ -2084,7 +2019,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2145,7 +2080,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2206,7 +2141,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10556,3 +10491,68 @@ PrefabInstance:
       objectReference: {fileID: 102900000, guid: aed8ff46ba00ea143af7333f26460bef, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+--- !u!1001 &2028940307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3265152173036777289, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_Name
+      value: Dark Wood Door UP (TransitionEvent)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Heroes' Den/heroes_den_house.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 6b3722f3cdbe7e840b7fb7aec68e282a, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 67249b77cc36e7d4fbd616cdd653fcc7, type: 3}

@@ -3345,6 +3345,71 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &106550317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1034344642}
+    m_Modifications:
+    - target: {fileID: 3265152173036777289, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_Name
+      value: Monastery Door Up (TransitionEvent)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.873007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.94271755
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.92299265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_monastery.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 887f10b34e3be2d4b8128937bf0ac2f2, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
 --- !u!1001 &122859603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3676,6 +3741,14 @@ PrefabInstance:
       propertyPath: waypoint
       value: 
       objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_Consumable.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: a289f65356c0d924c924f91f96481831, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &378019855 stripped
@@ -3911,7 +3984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3265152173036777289, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
       propertyPath: m_Name
-      value: Map Screen
+      value: Map Screen - CURRENTLY SOOTHWOOD
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
       propertyPath: m_RootOrder
@@ -3957,6 +4030,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b4c0380040f8e640869bd9f6470c82c, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Soothwood/soothwood.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 02a11c75a34ee0243b9aa0cccbce409d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
 --- !u!1001 &653447615
@@ -4456,6 +4541,7 @@ Transform:
   - {fileID: 1537143642}
   - {fileID: 1571337727}
   - {fileID: 417256383}
+  - {fileID: 1778050823}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9061,6 +9147,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
   m_PrefabInstance: {fileID: 1777342754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1778050823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4698576466535043288, guid: 8915c49ec0ad4b140975c9e3409c6cb7, type: 3}
+  m_PrefabInstance: {fileID: 106550317}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1795426918
 PrefabInstance:

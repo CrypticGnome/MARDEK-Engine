@@ -74,4 +74,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_Consumable.unity
     guid: a289f65356c0d924c924f91f96481831
+  - enabled: 1
+    path: Assets/Scenes/Maps/Goznor/Overworld/gz_monastery.unity
+    guid: 887f10b34e3be2d4b8128937bf0ac2f2
+  - enabled: 1
+    path: Assets/Scenes/Maps/Crash Site/crashsite.unity
+    guid: afac950c96e40ca448d457075149f04f
+  - enabled: 1
+    path: Assets/Scenes/Maps/Soothwood/soothwood_shaman.unity
+    guid: cefbd1e634e8ea54faa4bbe988e9896e
+  - enabled: 1
+    path: Assets/Scenes/Maps/Soothwood/soothwood.unity
+    guid: 02a11c75a34ee0243b9aa0cccbce409d
+  - enabled: 1
+    path: Assets/Scenes/Maps/Crash Site/saucer.unity
+    guid: 379c267f5de3bee41ae2f8edfca27161
   m_configObjects: {}

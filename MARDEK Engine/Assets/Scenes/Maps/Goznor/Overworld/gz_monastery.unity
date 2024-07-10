@@ -363,6 +363,67 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &352032851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548658, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: thisWaypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_Name
+      value: Waypoint
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6596d43268899347a1a39df54914f58, type: 3}
 --- !u!1001 &673400738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -529,19 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213c65687814b064795eaed6434e2b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilesetImporter: {fileID: 11400000, guid: 03c3e250d00f96a479576e4055e4bff9, type: 2}
-  mapInfo: "map = [[10,10,14,14,14,10,10],[10,14,15,15,15,14,10],[10,15,11,11,11,15,10],[10,11,30,31,32,11,10],[13,17,11,16,11,17,13],[11,11,11,11,11,11,11],[11,11,11,11,11,11,11],[11,11,11,16,11,11,11],[11,11,11,11,11,11,11],[11,11,11,11,11,11,11]];\r\ntileset
-    = \"monastery\";\r\narea = \"gz_monastery\";\r\nareaname = \"Goznor - Monastery\";\r\nambience
-    = null;\r\ndungeon = null;\r\nA_sprites = [{name:\"Medium Priest Gallovar\",model:\"Ypriest\",x:3,y:5,walkspeed:-2,dir:\"s\",EN:[\"People\",\"Gallovar\"],elem:\"WATER\",conv:\"c_Ypriest\"},{name:\"EXIT\",model:\"BIGDOOR3\",x:3,y:10,dest:[\"goznor\",18,14]}];\r\nif(GameData.plotVars.ZOMBIES
-    == \"GOZNOR\")\r\n{\r\n   A_sprites.push({name:\"WALK_TRIGGER\",model:\"_trigger\",x:3,y:9,ExecuteScript:function()\r\n  
-    {\r\n      DO_ACTIONS([[\"WALK\",0,3],[\"UNFREEZE\"],[\"TALK\",\"c_Ypriest\",\"Medium
-    Priest Gallovar\"]],\"Medium Priest Gallovar\",true);\r\n   }});\r\n}\r\nareaLoot
-    = [];\r\nfoes = [];\r\nbtlChance = 0;\r\nlevelrange = [1,1];\r\nmusicTrack =
-    \"HymnOfYalort\";\r\nAreaSetup({clearmap:1});\r\n"
-  waterTilemap: {fileID: 76455186}
-  waterBackgroundTilemap: {fileID: 86980540}
-  terrainTilemap: {fileID: 1076898754}
-  objectsTilemap: {fileID: 1840068283}
 --- !u!4 &847096877
 Transform:
   m_ObjectHideFlags: 0
@@ -1210,7 +1258,7 @@ Transform:
   - {fileID: 1076898751}
   - {fileID: 1840068281}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1178651518
 Tilemap:
@@ -1250,6 +1298,75 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1732131626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3265152173036777289, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_Name
+      value: Monastery Door Down (TransitionEvent)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/goznor.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: aed8ff46ba00ea143af7333f26460bef, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c38924ca13a1b64e83e90f1aefa8f19, type: 3}
 --- !u!1 &1840068280
 GameObject:
   m_ObjectHideFlags: 0
