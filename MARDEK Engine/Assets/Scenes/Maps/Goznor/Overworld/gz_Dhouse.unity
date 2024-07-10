@@ -363,6 +363,67 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &730718375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548658, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: thisWaypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_Name
+      value: Waypoint
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6596d43268899347a1a39df54914f58, type: 3}
 --- !u!1 &847096875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +1086,7 @@ Transform:
   - {fileID: 1076898751}
   - {fileID: 1840068281}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1178651518
 Tilemap:
@@ -1275,7 +1336,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1419247961
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 1, z: 0}
@@ -1499,3 +1560,72 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1001 &1894523827
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3265152173036777289, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_Name
+      value: Rural Door DOWN (TransitionEvent)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: a6ab66e160e266a41ab4395c727bd344, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/goznor.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: aed8ff46ba00ea143af7333f26460bef, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}

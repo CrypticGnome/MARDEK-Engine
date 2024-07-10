@@ -43,7 +43,7 @@ namespace MARDEK.Event
             if (raiseEvent)
             {
                 raiseEvent = false;
-                Trigger();
+                commands.TriggerFirst();
             }
         }
 

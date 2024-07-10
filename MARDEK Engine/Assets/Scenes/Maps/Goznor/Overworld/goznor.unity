@@ -3535,7 +3535,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_inn.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 647821c384eb3f44380c55ee0805744d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &188353643 stripped
@@ -3667,7 +3675,7 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &378019855 stripped
@@ -3796,6 +3804,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Sewers/sewer1.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 30bc096937c68114ab33755a5fe78117, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3284b133489cd044ba5bc20aa422972a, type: 3}
 --- !u!4 &417256383 stripped
@@ -3825,7 +3845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.1269932
+      value: -7.126993
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3866,7 +3886,7 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Maps/Goznor/Overworld/gz_Mhouse1.unity
@@ -3952,7 +3972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.790298
+      value: -15.790298
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4088,7 +4108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.126993
+      value: -3.1269932
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4129,7 +4149,7 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Maps/Goznor/Overworld/gz_Dhouse.unity
@@ -4224,7 +4244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.790298
+      value: -11.790298
       objectReference: {fileID: 0}
     - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4379,7 +4399,7 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &983566393 stripped
@@ -4489,7 +4509,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_house_Mereaedor.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 67542f13663407a45add44aec84dfda1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1051712579 stripped
@@ -8312,7 +8340,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: eba0038b303c2db48ad1dbc7f9ffe0e9, type: 2}
     - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_Name
-      value: Waypoint Shield Shop
+      value: Waypoint Armour Shop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6596d43268899347a1a39df54914f58, type: 3}
@@ -8603,7 +8631,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_W.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 94b83ce271b465f4db024262c26d122b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1403730600 stripped
@@ -8669,7 +8705,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_Ac.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 699394931942e6c4f99ed0275df57c86, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1537143642 stripped
@@ -8780,7 +8824,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_house01.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: a2494b37a68af364bb918d5ac6a82d4a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1571337727 stripped
@@ -8912,7 +8964,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_barracks.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: af001bdea46ab9b409d8a4dc55b8cadf, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1705893538 stripped
@@ -8929,7 +8989,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3265152173036777289, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_Name
-      value: Shield Shop Door
+      value: Armour Shop Door
       objectReference: {fileID: 0}
     - target: {fileID: 4698576466535043288, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: m_RootOrder
@@ -8978,7 +9038,15 @@ PrefabInstance:
     - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
       propertyPath: waypoint
       value: 
-      objectReference: {fileID: 11400000, guid: b97c98569b4a08d41bac07a51d3cb57f, type: 2}
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_Ar.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: b1ce5061a4e63f84bacd7bfde6bf0ff3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &1777342755 stripped

@@ -553,6 +553,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Heroes' Den/heroes_house.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 6b3722f3cdbe7e840b7fb7aec68e282a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!1001 &1035257421
@@ -2027,7 +2035,7 @@ Transform:
   - {fileID: 1076898751}
   - {fileID: 1840068281}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1178651518
 Tilemap:

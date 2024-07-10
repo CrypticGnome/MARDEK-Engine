@@ -151,6 +151,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1178651517}
   m_RootOrder: 0
@@ -166,6 +167,7 @@ TilemapRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -269,6 +271,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1178651517}
   m_RootOrder: 1
@@ -284,6 +287,7 @@ TilemapRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -359,6 +363,136 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &396051970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3265152173036777289, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_Name
+      value: Rural Door DOWN (TransitionEvent)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698576466535043288, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: waypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: 9b4c0380040f8e640869bd9f6470c82c, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/goznor.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: aed8ff46ba00ea143af7333f26460bef, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53b4e9f23c6e15741adc62672b0cd30f, type: 3}
+--- !u!1001 &644915752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548656, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2603034590301548658, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: thisWaypoint
+      value: 
+      objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
+      propertyPath: m_Name
+      value: Waypoint
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6596d43268899347a1a39df54914f58, type: 3}
 --- !u!1 &847096875
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,97 +523,127 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilesetImporter: {fileID: 11400000, guid: 8c547f292acf27344b81decd37ff5923, type: 2}
-  mapInfo: "map = [[17,12,113,12,12,10,27,27,27],[11,11,11,23,22,10,11,11,11],[111,111,111,111,111,10,11,19,11],[11,11,11,11,11,10,11,11,11],[11,11,11,11,11,12,11,11,11],[11,11,11,11,11,11,11,11,11],[11,11,11,11,11,10,10,10,10]];\r\ntileset
-    = \"interior1\";\r\narea = \"gz_shop_M\";\r\nareaname = \"Goznor - Magic Shop\";\r\nambience
-    = null;\r\ndungeon = null;\r\nA_sprites = [{name:\"TRANSPORT_TRIGGER\",model:\"_trigger\",x:7,y:2,triggers:-1,WALKON:true,ExecuteScript:function()\r\n{\r\n  
-    if(!CanEnterDreamrealm())\r\n   {\r\n      return undefined;\r\n   }\r\n   _root.EnterDreamrealm();\r\n  
-    _root.WarpTrans([\"gz_shop_M_dream\",7,2]);\r\n}},{name:\"The Elements\",model:\"object\",x:6,y:0,type:\"examine\",conv:[[\"\",\"Everything
-    and everyone in the world has an innate affinity to at least one of several magical
-    elements. People and spells are all monoelemental, and their Element determines
-    their power, potential, and, in the case of people, their personalities.\"],[\"\",\"There
-    are seven known elements, divided into three distinct groups. There are the Natural
-    Elements, which Nature is composed largely of; there are the Moral Elements,
-    which are born from the essence of free will and the spirit of life and choice;
-    there is also the odd Spiritual element group, which eludes many thaumatologists
-    to this day.\"],[\"\",\"There are four Natural elements - Fire, Water, Air, and
-    Earth - two Moral elements - Dark and Light - and only one known Spiritual element
-    - Ether - though Ether\\'s existence is largely considered mythical.\"],[\"\",\"FIRE
-    is the element of energy and devotion, of passion and strength. Fire people are
-    strong-willed, opinionative, confident and powerful. They\\'re driven, and strive
-    to achieve goals. They can be stubborn.\"],[\"\",\"WATER is the element of intellect,
-    of calmness, of beauty. Water people are often laid-back, and \\'go with the
-    flow\\'. They\\'re often good-looking, intelligent, and perceptive. Many have
-    strong magical power, making ideal Mages or Wizards.\"],[\"\",\"AIR is the element
-    of adventure, of wandering, of drifting, of dreaming. Air people are dreamers,
-    but they\\'re floaty and rarely focused on one thing for long. Many travellers
-    and wanderers and Adventurers are of the Air element, \\'living on the edge of
-    the wind\\'.\"],[\"\",\"EARTH is the element of wisdom, common sense and hardiness.
-    Earth people are usually tough and practical, and most certainly \\'down to Earth\\'.
-    They are wise and understanding, trustworthy, honest and reliable. They can be
-    extremely devoted to a cause or way of life, and are also good at solving puzzles.\"],[\"\",\"LIGHT
-    is the elemental epitome of goodness and justice. People with this element will
-    live to Do Good, helping people whenever they can. They live for others moreso
-    than for themselves. They are the most helpful, kind and caring of elements,
-    and often become Heroes.\"],[\"\",\"DARK is the elemental epitome of evil. Dark
-    people are inherently self-centred and manipulative, often violent. They only
-    do things to benefit themselves, and care little for other people. They are the
-    polar opposites of Light people.\"],[\"\",\"ETHER is still a mystery, as it occurs
-    so rarely as to be considered almost mythical. Not much is written about it,
-    and what is written is not highly reliable.\"],[\"\",\"There are rumours of an
-    eighth element, but that is all they are; rumours. Myths. There\\'s no known
-    evidence to support such claims.\"],[\"\",\"The personality traits mentioned
-    for each element in this book are the most common for those elements, but are
-    by no means the only personalities such people can have. Good-aligned Dark-elemental
-    people are not unheard of (take the Adventurer Bernard Stormkiller, for example).\"],[\"\",\"Being
-    creatures of free will, our destinies are for us to choose, not our inherent
-    elements.\"]]},{name:\"Elemental Compatibility\",model:\"object\",x:7,y:0,type:\"examine\",conv:[[\"\",\"Though
-    the elements all exist in a delicate natural balance, each one has an element
-    that opposes it, an element that it must woefully submit to, by the accord of
-    the Magical Laws Of The Universe.\"],[\"\",\"Fire consumes and feeds on Air,
-    Air whittles away and erodes the Earth, Earth absorbs Water, and Water douses
-    flames. Thus is the cycle of the Natural elements.\"],[\"\",\"The Moral elements,
-    being antipodes of one another, polar opposites, oppose each other in a unique
-    way. Light floods, consumes and thus eradicates the Darkness, but in turn Darkness
-    puts out the light. These two elements are both strong and weak against each
-    other simultaneously.\"],[\"\",\"Not much is known about the other elements\\'
-    traits, if indeed they exist at all. Is Ether strong or weak against anything?
-    We do not know.\"],[\"\",\"Though these elemental traits are most often exploited
-    on the battlefield, they can cause influence in day-to-day life too. A fire-elemental
-    person will inherently (though unwillingly) be more submissive to a water-elemental
-    person, and that water person will be more bossy and demanding around fire people,
-    exuding an unwilling and unconscious dominance. Such is nature.\"]]},{name:\"Elements
-    and Breeding\",model:\"object\",x:8,y:0,type:\"examine\",conv:[[\"\",\"Elemental
-    traits can also come into play when it comes to love and sexual relationships.
-    Your elemental affinity plays a large part in determining who you\\'re attracted
-    to, and how well relationships with others will turn out for you.\"],[\"\",\"Males,
-    being the dominant gender, also like to be the dominant element in relationships;
-    thus they are attracted to females of the element that they are strong against
-    first and foremost. Females, secretly lusting being dominated and ravished, are
-    attracted to men of the element superior to themselves. So such matches work
-    rather well.\"],[\"\",\"People of the same element can also work excellently
-    together; similarity at the most fundamental levels has many times been the cause
-    for a great love blossoming and flourishing.\"],[\"\",\"Such things as have been
-    mentioned apply only to people with Natural elements; for people with a Moral
-    element, different rules apply. Naturally, they are attracted to people of the
-    same element as themselves, but also to any and all of the Natural elements.
-    Because of this, Morally-elemental people have more choice when it comes to finding
-    a partner that\\'s right for them.\"],[\"\",\"A relationship between the two
-    Moral elements - that is, a Light and Dark couple - CANNOT work, both emotionally
-    and physically. The two people will never get along or fall in love, and even
-    if they did, a child could never physically be conceived in such a relationship.\"],[\"\",\"When
-    a child is born to other couples, however, its element is inherited from its
-    parents. In a dominant-element relationship, the child is of the dominant element.
-    In same-element relationships, the child is of the element both parents share.
-    In Moral-Natural relationships, the Moral element takes dominance.\"],[\"\",\"Consider
-    these things when looking for a partner. Asking for someone\\'s element before
-    anything else is a great way of quickly getting an idea of whether anything will
-    happen or not!\"]]},{name:\"Shopkeeper\",model:\"man2\",x:2,y:1,walkspeed:-1,dir:\"s\",elem:\"WATER\",conv:[[\"grin\",\"Heh,
-    sorry lads, but I can\\'t legally sell you any magic until you\\'re a wee bit
-    older! Come back in a few years maybe?\"]]},{name:\"EXIT\",model:\"DOOR0\",x:2,y:7,dest:[\"goznor\",35,21]}];\r\nif(GameData.CHAPTER
-    == 1)\r\n{\r\n   A_sprites.push({name:\"TALKTRIGGER\",model:\"talktrigger\",x:2,y:2,NPC:\"Shopkeeper\",dir:\"s\"});\r\n}\r\nelse\r\n{\r\n  
-    A_sprites.push({name:\"Item Shop\",model:\"shop\",x:2,y:2,SHOP:{name:\"Goznor
-    Magic Shop\",wares:DefaultShops.MAGIC_L1}});\r\n}\r\nareaLoot = [];\r\nfoes =
-    [];\r\nbtlChance = 0;\r\nlevelrange = [1,1];\r\nmusicTrack = !GameData.plotVars.SUNSET?\"Goznor\":\"none\";\r\nAreaSetup({clearmap:1});\r\n"
+  mapInfo: "map = [[12,17,113,12,12,10,12,12,12],[22,11,11,11,22,10,24,25,23],[111,111,111,111,111,12,11,11,11],[11,11,11,11,11,11,11,11,11],[11,23,11,11,24,25,23,11,11],[24,25,23,11,11,11,11,11,11],[11,11,11,11,11,11,24,25,23]];\r\ntileset
+    = \"interior1\";\r\narea = \"gz_inn\";\r\nareaname = \"Goznor - Inn\";\r\nambience
+    = null;\r\ndungeon = null;\r\nif(GameData.CHAPTER == 1)\r\n{\r\n   A_sprites
+    = [{name:\"TALKTRIGGER\",model:\"talktrigger\",x:2,y:2,NPC:\"Barkeep\",dir:\"s\"},{name:\"Barkeep\",model:\"man1\",x:2,y:1,walkspeed:-1,dir:\"s\",elem:\"EARTH\",conv:[[\"norm\",\"Sorry
+    lads, but I can\\'t serve minors \\'ere! Little kiddiwinks like you shouldn\\'t
+    be int\\'rested in booze anyway; it rots yer mind!\"],[\"grin\",\"But that doesn\\'t
+    stop it frum sellin\\' like \\'ot cakes! I sleep on bags o\\' money at night!
+    Myep.\"]]},{name:\"Young Man\",model:\"common\",x:2,y:5,walkspeed:-2,dir:\"w\",EN:[\"People\",\"Social
+    Fox\"],elem:\"FIRE\",conv:[[\"grin\",\"Hey, little sprog! Isn\\'t Social Fox
+    like totally amazing? I heard that once, he was surrounded by like a million
+    Monsters - no, a million AND FIVE! - and he managed to slay them all WITH HIS
+    EYES SHUT using only his leather codpiece! How amazing is THAT?!\"]]},{name:\"Bearded
+    Man\",model:\"man2\",x:1,y:4,walkspeed:-2,dir:\"s\",EN:[\"People\",\"Social Fox\"],elem:\"FIRE\",conv:[[\"grin\",\"Even
+    though Social Fox doesn\\'t have a beard, he\\'s totally my idol! Did you hear
+    about that one time where he was fighting the Octopus Of Many Swords, and he
+    got ALL HIS LIMBS CHOPPED OFF, but grew them back and used the old limbs to bludgeon
+    the octopus to death?!?! How brilliant is THAT?!\"]]},{name:\"Young Woman\",model:\"woman\",x:0,y:5,walkspeed:-2,dir:\"e\",EN:[\"People\",\"Social
+    Fox\"],elem:\"AIR\",conv:[[\"mad\",\"social fox is hot *drools* i want 2 merry
+    him wen i meat him adn we wil have liek 3 babys nad i will call them cory and
+    brandon and janey-sue!!11 squee!11\"]]},{name:\"Middle-Aged Man\",model:\"man1\",x:6,y:1,walkspeed:-2,dir:\"e\",elem:\"AIR\",conv:[[\"susp\",\"It
+    seems that there are more people in this inn than there are houses in the village!
+    And what does the mayor do about this? NUFFIN!\"],[\"angr\",\"The fact that Goznor
+    doesn\\'t actually HAVE a mayor has nothing to do with it!! It needs to grow
+    one, dammit! Off, uh... off the mayor tree! Someone needs to plant one of those,
+    yes!\"]]},{name:\"Middle-Aged Woman\",model:\"woman2\",x:8,y:1,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"grin\",\"Wasn\\'t
+    that falling star EXCITING! It was one of the most exciting, thrilling things
+    I ever did see!\"],[\"susp\",\"Why didn\\'t we have any falling stars at our
+    wedding, luv? I would\\'ve wanted falling stars at my wedding.\"],[\"shok\",\"[[Middle-Aged
+    Man]]I didn\\'t know you wanted falling stars at our wedding, dearest!\"],[\"sad\",\"[[Middle-Aged
+    Woman]]Well I guess you just don\\'t love me after all then!!!\"]]},{name:\"Adventurer\",model:\"woman4\",x:8,y:6,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"blah\",\"The
+    uniform for the Goznor Guard is really ugly. I mean, ew, that horrible vomit-green
+    colour is SO ten years ago!\"],[\"blah\",\". . .\"],[\"blah\",\"...I wear it
+    for the retro look. Shut up.\"]]},{name:\"Truant Soldier\",model:\"soldier\",x:6,y:6,walkspeed:-2,dir:\"e\",elem:\"FIRE\",conv:[[\"grin\",\"I
+    only joined the Guard so then I could get this uniform! Chicks dig a guy in a
+    uniform. Like this one \\'ere. I\\'m TOTALLY scorin\\' and I\\'m so gonna get
+    some tonight!\"],[\"deep\",\"Not that that\\'s an appropriate thing to say to
+    a child like yourself, mind you.\"]]},{name:\"EXIT\",model:\"DOOR0\",x:3,y:7,dest:[\"goznor\",36,16]}];\r\n}\r\nelse
+    if(GameData.CHAPTER == 2)\r\n{\r\n   if(GameData.plotVars.ZOMBIES == \"CANONIA\")\r\n  
+    {\r\n      A_sprites = [{name:\"TALKTRIGGER\",model:\"talktrigger\",x:2,y:2,NPC:\"Barkeep\",dir:\"s\"},{name:\"Barkeep\",model:\"man1\",x:2,y:1,walkspeed:-1,dir:\"s\",elem:\"EARTH\",conv:[[\"norm\",\"\\'Twere
+    a shame that none o\\' them zombie fellers wanted a spot o\\' grog. If I\\'D
+    just been wrenched from me eternal slumber by the eldritch magicks of the damned,
+    I know I\\'D be dyin\\' for a pint!\"]]},{name:\"Young Man\",model:\"common\",x:2,y:5,walkspeed:-2,dir:\"w\",EN:[\"People\",\"Social
+    Fox\"],elem:\"FIRE\",conv:[[\"sad\",\"If Social Fox were here, he would have
+    given those zombies a good, stern talking to! Then he\\'d have given them a stern
+    thrashing. I bet he\\'d raise children like that if he had any.\"]]},{name:\"Bearded
+    Man\",model:\"man2\",x:1,y:4,walkspeed:-2,dir:\"s\",EN:[\"People\",\"Social Fox\"],elem:\"FIRE\",conv:[[\"susp\",\"This
+    is a little secret, but one of Social Fox\\'s only fears was the thought of being
+    risen from the dead as one o\\' them undeads. Horrified of the buggers, he was.
+    Horrified.\"],[\"grin\",\"I read that in his autobiography! I bet you haven\\'t
+    read that!\"]]},{name:\"Young Woman\",model:\"woman\",x:6,y:1,walkspeed:-2,dir:\"e\",elem:\"WATER\",conv:[[\"sad\",\"Sigh...
+    Why are all the good men around here either bearded or undead?\"]]},{name:\"Adventurer\",model:\"woman4\",x:8,y:6,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"blah\",\"This
+    soldier here is all talk. He\\'s been bragging about himself for ages, but when
+    those zombies came, he just hid under the table and cried.\"],[\"blah\",\"Now
+    he has a chance to redeem himself by going to Canonia and beating the ones there,
+    like a REAL man should, but is he doing that? Of course he isn\\'t.\"],[\"cdgr\",\"Y\\'know,
+    guy, you\\'re not too pig ugly as sin yourself... Soooo, if YOU show you\\'re
+    the real deal by beating up those rotting men in Canonia, maybe I\\'ll consider
+    meeting up with you afterwards for some... *celebrations*, hm?\"],[\"blah\",\"[[Emela]](What
+    a whore.)\"]]},{name:\"Truant Soldier\",model:\"soldier\",x:6,y:6,walkspeed:-2,dir:\"e\",no_turn:true,elem:\"FIRE\",conv:[[\"shok\",\"SWEET
+    MERCILESS YALORT THE DEAD ARE WALKING THE STREETS WHY IS THIS HAPPENING OH GODS
+    I FEEL SICK HOLD ME!!!\"]]},{name:\"EXIT\",model:\"DOOR0\",x:3,y:7,dest:[\"goznor\",36,16]}];\r\n  
+    }\r\n   else\r\n   {\r\n      A_sprites = [{name:\"TALKTRIGGER\",model:\"talktrigger\",x:2,y:2,NPC:\"Barkeep\",dir:\"s\"},{name:\"Barkeep\",model:\"man1\",x:2,y:1,walkspeed:-1,dir:\"s\",elem:\"EARTH\",conv:[[\"norm\",\"Sorry,
+    but I don\\'t serve soldiers in \\'ere! Can\\'t be \\'avin\\' you gettin\\'\\n\\'IN-TOCK-SER-CAY-TED\\'
+    on duty, now!\"]]},{name:\"Young Man\",model:\"common\",x:2,y:5,walkspeed:-2,dir:\"w\",EN:[\"People\",\"Social
+    Fox\"],elem:\"FIRE\",conv:[[\"sad\",\"Social Fox\\'s body was buried honourably
+    in a big tomb deep, deep in the catacombs. I bet this is important later on.\"]]},{name:\"Bearded
+    Man\",model:\"man2\",x:1,y:4,walkspeed:-2,dir:\"s\",EN:[\"People\",\"Social Fox\"],elem:\"FIRE\",conv:[[\"sad\",\"Social
+    Fox diiiieeeed! I\\'m SAD now because of that! But at least he went out doing
+    what he loved: being mauled by a big vicious dragon and bleeding profusely.\"]]},{name:\"Young
+    Woman\",model:\"woman\",x:6,y:1,walkspeed:-2,dir:\"e\",elem:\"WATER\",conv:[[\"blah\",\"This
+    guy thinks very highly of his beard. I don\\'t. Facial hair is disgusting. Utterly
+    foul. Not appealing at all.\"],[\"blah\",\"I had a friend in a village on another
+    planet probably who thought the same thing. Bearded guys kept trying to hit on
+    her too. Haven\\'t heard from her in ages. Must be the lack of communication
+    between planets in this setting.\"]]},{name:\"Miner\",model:\"miner\",x:8,y:1,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"deep\",\"I
+    heard some filthy business was afoot at the Gem Mines... Bandits came and took
+    everyone prisoner, or summat.\"],[\"grin\",\"I\\'m just glad I was skippin\\'
+    work to come here and pick up chicks! They just love me beard! It makes me look
+    MANLY, and we all know how much the ladies love that, eh fellas?\"]]},{name:\"Adventurer\",model:\"woman4\",x:8,y:6,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"blah\",\"Ew,
+    this guy just won\\'t stop trying to hit on me! It\\'s annoying! I keep telling
+    him to shut up, but he just won\\'t!\"],[\"cdgr\",\"But he\\'s hot, so I\\'m
+    not goin\\' anywhere! I just like complaining.\"]]},{name:\"Truant Soldier\",model:\"soldier\",x:6,y:6,walkspeed:-2,dir:\"e\",no_turn:true,elem:\"FIRE\",conv:[[\"grin\",\"Hey
+    babeh, I\\'m wearing a sexeh hat, babeh! I bet you like that, babeh! I\\'m also
+    tough as steel and have no emotions, ever! Except coolness. And sexitude. Ooh
+    yeah. Me mates all call me \\'Sextro the Mighty\\'. And by \\'me mates\\', I
+    mean \\'all the babes I get wiv all the time\\'. Oh yeh babeh, I know you\\'re
+    turned on.\"],[\"grin\",\"Just like this chick \\'ere!\"]]},{name:\"EXIT\",model:\"DOOR0\",x:3,y:7,dest:[\"goznor\",36,16]}];\r\n  
+    }\r\n}\r\nelse if(GameData.CHAPTER == 3)\r\n{\r\n   A_sprites = [{name:\"TALKTRIGGER\",model:\"talktrigger\",x:2,y:2,NPC:\"Barkeep\",dir:\"s\"},{name:\"Barkeep\",model:\"man1\",x:2,y:1,walkspeed:-1,dir:\"s\",elem:\"EARTH\",conv:[[\"grin\",\"Sir
+    Mardek, old fellow! You don\\'t want any of the grog here, I assure you! Don\\'t
+    tell anyone else, BUT IT\\'S ACTUALLY JUST PISS. I URINATE IN THE CUPS AND SELL
+    IT. But I won\\'t serve it to you, nossir! That would be cruel!\"],[\"susp\",\"Unless
+    you have particular interest in imbibing my bodily waters?\"],[\"o_O\",\"[[PC]]Well,
+    not today.\"],[\"angr\",\"WELL THAT\\'S YOUR LOSS, THEN. You fancy knights in
+    your shiny armour are too GOOD for quaffin\\' tankards of a diseased old man\\'s
+    piddle, eh? IS THAT IT?! Get out of my face. You make me sick.\"],[\"grin\",\"Come
+    again some other time though!\"]]},{name:\"Young Man\",model:\"common\",x:2,y:5,walkspeed:-2,dir:\"w\",EN:[\"People\",\"Social
+    Fox\"],elem:\"FIRE\",conv:[[\"sad\",\"I\\'m unsure what to think of this \\'Lone
+    Wolf\\' fellow... I mean, he sounds a lot like he\\'s as great as Social Fox
+    was, but I just miss Social Fox so much and I don\\'t think I can just forget
+    and replace him so easily!!!\"]]},{name:\"Bearded Man\",model:\"man2\",x:1,y:4,walkspeed:-2,dir:\"s\",EN:[\"People\",\"Social
+    Fox\"],elem:\"FIRE\",conv:[[\"susp\",\"I wonder if this Lone Wolf person has
+    a beard...? Social Fox did fine without one, but honestly, I think this time
+    around, our Grand Adventurer needs a beard. He\\'d set a good example for the
+    children, you see.\"]]},{name:\"Old Woman\",model:\"woman3\",x:0,y:5,walkspeed:-2,dir:\"e\",elem:\"EARTH\",conv:[[\"smile\",\"Just
+    once in my life, I would like to visit a village of lizards! And a village of
+    wraiths! And a village of pixies! And a village of naked hunky men! Do you think
+    any of these places actually exist, young man?\"]]},{name:\"Middle-Aged Man\",model:\"man1\",x:6,y:1,walkspeed:-2,dir:\"e\",elem:\"AIR\",conv:[[\"susp\",\"There\\'s
+    a place called Aeropolis on the contintent to the south. I went once, and all
+    the savage brown people there were really racist, almost as if they didn\\'t
+    even realise that they were inferior to us! Pfft!\"]]},{name:\"Middle-Aged Woman\",model:\"woman2\",x:8,y:1,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"angr\",\"Travelling
+    abroad is such a pain! The customs in those Warports are like being eaten by
+    a giant snake shaped like a warport, only instead of being digested, you have
+    to have security checks along the way! Then you end up on another continent!
+    ...You know what I mean!\"]]},{name:\"Adventurer\",model:\"woman4\",x:8,y:6,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:[[\"cdgr\",\"I
+    sure do love men in uniforms. This priest here is such a bad boy, with his black
+    robe. I\\'m going home with him tonight, whether his priestly vows allow it or
+    not.\"]]},{name:\"Cultling\",model:\"cultling\",x:6,y:6,walkspeed:-2,dir:\"e\",elem:\"WATER\",conv:[[\"shok\",\"Aah!
+    This woman is talking to me! A WOMAN! Talking to ME! I don\\'t know what to do!!\"]]},{name:\"EXIT\",model:\"DOOR0\",x:3,y:7,dest:[\"goznor\",36,16]}];\r\n}\r\nif(GameData.plotVars.GOPE
+    != null && GameData.CHAPTER == 2)\r\n{\r\n   A_sprites.push({name:\"Gope\",model:\"bandit\",x:6,y:4,walkspeed:-2,dir:\"w\",elem:\"EARTH\",conv:\"c_gope\"});\r\n}\r\nareaLoot
+    = [];\r\nfoes = [];\r\nbtlChance = 0;\r\nlevelrange = [1,1];\r\nmusicTrack =
+    !GameData.plotVars.SUNSET?\"Goznor\":\"none\";\r\nAreaSetup({clearmap:1});\r\n"
   waterTilemap: {fileID: 76455186}
   waterBackgroundTilemap: {fileID: 86980540}
   terrainTilemap: {fileID: 1076898754}
@@ -494,10 +658,148 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.03, y: 0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &901668875
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 69186623529443827, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186623529443827, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186623529443827, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186623529443827, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624502337848, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624502337848, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624502337848, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624502337848, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624757488653, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624757488653, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624757488653, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624757488653, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 69186624757488653, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484328419042534593, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484328419042534593, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484328419042534593, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967828192807274310, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967828192807274310, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967828192807274310, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967828192807274310, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388210907319822896, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_Name
+      value: MapScenePrefabPack
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6599496172459131805, guid: 4524198ac264da046815598c35039adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4524198ac264da046815598c35039adc, type: 3}
 --- !u!1 &1076898750
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +828,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1178651517}
   m_RootOrder: 2
@@ -541,6 +844,7 @@ TilemapRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -571,7 +875,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 1, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 2
@@ -637,7 +941,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
-  - first: {x: 0, y: -5, z: 0}
+  - first: {x: 5, y: -6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -647,11 +951,31 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
-  - first: {x: 1, y: -5, z: 0}
+  - first: {x: 6, y: -6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1
+  - first: {x: 8, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1
+  - first: {x: 0, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -660,8 +984,8 @@ Tilemap:
   - first: {x: 2, y: -5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -740,8 +1064,8 @@ Tilemap:
   - first: {x: 1, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -770,8 +1094,8 @@ Tilemap:
   - first: {x: 4, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -780,8 +1104,8 @@ Tilemap:
   - first: {x: 6, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -857,6 +1181,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
+  - first: {x: 5, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1
   - first: {x: 6, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -900,16 +1234,6 @@ Tilemap:
   - first: {x: 7, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: 8, y: -2, z: 0}
-    second:
-      serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
@@ -917,7 +1241,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
-  - first: {x: 0, y: -1, z: 0}
+  - first: {x: 8, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -950,8 +1274,8 @@ Tilemap:
   - first: {x: 3, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -960,18 +1284,8 @@ Tilemap:
   - first: {x: 6, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1
-  - first: {x: 7, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -980,8 +1294,8 @@ Tilemap:
   - first: {x: 8, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -989,21 +1303,21 @@ Tilemap:
       m_AllTileFlags: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 38
+  - m_RefCount: 32
     m_Data: {fileID: 11400000, guid: e4a75173d72a9ba4fa667ffbd3646d4e, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 4
+    m_Data: {fileID: 11400000, guid: cd76771ad61b8e6498c834be83b009f1, type: 2}
+  - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: dbd75a38b02a43248a94bf7705e6d7a0, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 81dbaa99adf46fb46a466aa38252f893, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 38
+  - m_RefCount: 32
     m_Data: {fileID: 6346318911325233748, guid: 38483821d437c84489bc02812a23ee76, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 4
+    m_Data: {fileID: -8326724806951850010, guid: 38483821d437c84489bc02812a23ee76, type: 3}
+  - m_RefCount: 5
     m_Data: {fileID: -1317986280940093683, guid: 38483821d437c84489bc02812a23ee76, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 8474981341611232960, guid: 38483821d437c84489bc02812a23ee76, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 40
+  - m_RefCount: 41
     m_Data:
       e00: 1
       e01: 0
@@ -1022,7 +1336,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 40
+  - m_RefCount: 41
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1088,13 +1402,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 76455184}
   - {fileID: 86980538}
   - {fileID: 1076898751}
   - {fileID: 1840068281}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &1178651518
 Tilemap:
@@ -1163,6 +1478,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1178651517}
   m_RootOrder: 3
@@ -1178,6 +1494,7 @@ TilemapRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -1205,10 +1522,10 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1419247961
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 2, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 1, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 2
@@ -1224,41 +1541,21 @@ Tilemap:
   m_GameObject: {fileID: 1840068280}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 5, y: -6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 2147483649
-  - first: {x: 6, y: -6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 2147483649
   - first: {x: 7, y: -6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 2147483649
-  - first: {x: 8, y: -6, z: 0}
+  - first: {x: 1, y: -5, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1267,18 +1564,8 @@ Tilemap:
   - first: {x: 5, y: -4, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 2147483649
-  - first: {x: 5, y: -3, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1337,8 +1624,18 @@ Tilemap:
   - first: {x: 5, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 3
-      m_TileSpriteIndex: 3
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 2147483649
+  - first: {x: 0, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1347,8 +1644,8 @@ Tilemap:
   - first: {x: 4, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1359,6 +1656,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 3
       m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 2147483649
+  - first: {x: 7, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1397,8 +1704,8 @@ Tilemap:
   - first: {x: 3, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1407,8 +1714,8 @@ Tilemap:
   - first: {x: 4, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1427,8 +1734,8 @@ Tilemap:
   - first: {x: 6, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1437,8 +1744,8 @@ Tilemap:
   - first: {x: 7, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1447,8 +1754,8 @@ Tilemap:
   - first: {x: 8, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1456,37 +1763,37 @@ Tilemap:
       m_AllTileFlags: 2147483649
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 787018c52ae59c046bdf47a8afc7a448, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 559fc29bd25d9d04abee98f98bb58585, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b54d5da30d924ef439d480c99b7dd748, type: 2}
-  - m_RefCount: 8
-    m_Data: {fileID: 11400000, guid: 14f8f323106f6e749b134633da29aa46, type: 2}
-  - m_RefCount: 3
-    m_Data: {fileID: 11400000, guid: 0cd9f14e0648b054d861c20a702f468a, type: 2}
+    m_Data: {fileID: 11400000, guid: 787018c52ae59c046bdf47a8afc7a448, type: 2}
   - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b54d5da30d924ef439d480c99b7dd748, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 14f8f323106f6e749b134633da29aa46, type: 2}
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 26383aee70019c44db34b6098973fe8c, type: 2}
+  - m_RefCount: 4
+    m_Data: {fileID: 11400000, guid: 5acc722cbb5177f40806b06625d4c798, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 17e19835c68f37a4ebc070797287f4e0, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: 4443897450750874535, guid: 38483821d437c84489bc02812a23ee76, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 7
     m_Data: {fileID: 1840059084634729652, guid: 38483821d437c84489bc02812a23ee76, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -4129235289053152723, guid: 38483821d437c84489bc02812a23ee76, type: 3}
-  - m_RefCount: 8
-    m_Data: {fileID: -8655818156195654838, guid: 38483821d437c84489bc02812a23ee76, type: 3}
-  - m_RefCount: 3
-    m_Data: {fileID: 588497054336764479, guid: 38483821d437c84489bc02812a23ee76, type: 3}
+    m_Data: {fileID: 4443897450750874535, guid: 38483821d437c84489bc02812a23ee76, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: -4129235289053152723, guid: 38483821d437c84489bc02812a23ee76, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: -8655818156195654838, guid: 38483821d437c84489bc02812a23ee76, type: 3}
+  - m_RefCount: 2
     m_Data: {fileID: 430984766625829748, guid: 38483821d437c84489bc02812a23ee76, type: 3}
+  - m_RefCount: 4
+    m_Data: {fileID: 8914089594741642868, guid: 38483821d437c84489bc02812a23ee76, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: 8694305388649107506, guid: 38483821d437c84489bc02812a23ee76, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 23
+  - m_RefCount: 22
     m_Data:
       e00: 1
       e01: 0
@@ -1505,7 +1812,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 23
+  - m_RefCount: 22
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
