@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_M.unity
     guid: e20bcd930878d334fa64ee6c8c18d2f4
+  - enabled: 1
+    path: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_Consumable.unity
+    guid: a289f65356c0d924c924f91f96481831
   m_configObjects: {}

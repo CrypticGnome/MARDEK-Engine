@@ -4013,7 +4013,7 @@ PrefabInstance:
     - target: {fileID: 2603034590301548658, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: thisWaypoint
       value: 
-      objectReference: {fileID: 11400000, guid: a6ab66e160e266a41ab4395c727bd344, type: 2}
+      objectReference: {fileID: 11400000, guid: 42d90228ed90a324cb9cbe4468d43551, type: 2}
     - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_Name
       value: Waypoint Mardek House
@@ -4285,7 +4285,7 @@ PrefabInstance:
     - target: {fileID: 2603034590301548658, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: thisWaypoint
       value: 
-      objectReference: {fileID: 11400000, guid: 42d90228ed90a324cb9cbe4468d43551, type: 2}
+      objectReference: {fileID: 11400000, guid: a6ab66e160e266a41ab4395c727bd344, type: 2}
     - target: {fileID: 2603034590301548669, guid: e6596d43268899347a1a39df54914f58, type: 3}
       propertyPath: m_Name
       value: Waypoint Deugan House
