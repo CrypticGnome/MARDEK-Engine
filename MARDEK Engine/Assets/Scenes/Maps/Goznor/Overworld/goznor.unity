@@ -4400,6 +4400,14 @@ PrefabInstance:
       propertyPath: waypoint
       value: 
       objectReference: {fileID: 11400000, guid: ff586c8d0686320458090021be35841e, type: 2}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.scenePath
+      value: Assets/Scenes/Maps/Goznor/Overworld/gz_shop_M.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8727420034804483783, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
+      propertyPath: scene.sceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: e20bcd930878d334fa64ee6c8c18d2f4, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 190d8e74ae11e3b47bdb6006420c36c0, type: 3}
 --- !u!4 &983566393 stripped
