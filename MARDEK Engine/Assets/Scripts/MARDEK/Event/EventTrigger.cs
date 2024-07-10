@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MARDEK.Event
 {
@@ -11,6 +12,12 @@ namespace MARDEK.Event
         [SerializeField] bool onStart = false;
         [SerializeField] bool onInteractionKey = false;
         [SerializeField] bool onTriggerEnter = false;
+
+        #if UNITY_EDITOR
+        [Header("Debugging")]
+        [SerializeField] bool raiseEvent;
+        #endif
+
 
         void Start()
         {
@@ -33,6 +40,11 @@ namespace MARDEK.Event
         {
             if (commands.isOngoing)
                 commands.TryAdvanceQueue();
+            if (raiseEvent)
+            {
+                raiseEvent = false;
+                Trigger();
+            }
         }
 
         [ContextMenu("Trigger")]
@@ -45,5 +57,7 @@ namespace MARDEK.Event
             else
                 Debug.LogError("You can only trigger events when the game is playing");
         }
+
+
     }
 }
